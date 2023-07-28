@@ -1,0 +1,97 @@
+.bg-body {
+  background-image: url(./src_dat_ve_phim/bgmovie.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.bg-body::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.viewZindex {
+  z-index: 1;
+}
+
+.cot {
+  outline: 1px solid red;
+  width: 40px;
+  height: 40px;
+	font-weight: 700;
+  color:  yellow;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ghe__chua__dat {
+  width: 40px;
+  height: 40px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  outline: 2px solid orange;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.ghe__dang__dat {
+  width: 40px;
+  height: 40px;
+  font-weight: 600;
+  background-color: green;
+  color: black;
+  outline: 2px solid orange;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.ghe__da__dat {
+  width: 40px;
+  height: 40px;
+  font-weight: 600;
+  background-color: orange;
+  color: black;
+  outline: 2px solid orange;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.screen{
+  border-bottom: 35px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  width:100%;
+  filter: drop-shadow(0px 28px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+}
+
+.table1 {
+  overflow: auto;
+  height: 600px;
+  
+}
+
